@@ -1,0 +1,16 @@
+.search {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-header {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.search-header p {
+    color: $secondary-color;
+}

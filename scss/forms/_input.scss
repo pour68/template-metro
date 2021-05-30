@@ -1,0 +1,25 @@
+.search-box {
+    position: relative;
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-radius: 32px;
+    outline: none;
+    border: 1px solid $light-grey;
+}
+
+.search-box button {
+    position: absolute;
+    right: 0;
+    font-size: 1rem;
+    padding: 0.85rem 1rem;
+    background-color: $primary-color;
+    color: #fff;
+    border: none;
+    border-radius: 0 32px 32px 0;
+    cursor: pointer;
+}
